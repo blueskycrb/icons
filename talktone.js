@@ -8,7 +8,7 @@ async function operator(proxies = [], targetPlatform, context) {
   const talktonePrefix = $arguments.talktone_prefix ?? '[TalkTone] '
   const method = $arguments.method || 'get'
 
-  const talktoneUrl = 'https://www.talktoneapp.com/' // TalkTone 网址
+  const talktoneUrl = 'https://www.talkatone.com/' // TalkTone 网址
   const ipApiUrl = 'https://ipinfo.io/' // IP 归属地查询 API
   const $ = $substore
 
